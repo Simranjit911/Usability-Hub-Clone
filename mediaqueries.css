@@ -10,6 +10,7 @@
     font-size: 1.2rem;
     
   }
+ 
   .mainnav {
     overflow: initial;
   }
@@ -121,6 +122,7 @@
   .ptop p {
     margin: 20px 0;
   }
+  
   .pbottom {
     text-align: center;
   }
@@ -165,7 +167,9 @@
   .fcard {
     min-width: 100%;
   }
-
+  .features-section{
+    background-size: 0.1px;
+  }
   .cardtext {
     font-size: 15px;
   }
