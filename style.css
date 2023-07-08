@@ -105,7 +105,9 @@ button {
 }
 .bannertext {
   text-align: center;
-  padding: 15px 30px;
+  padding: 15px 0px;
+  font-size: 14px;
+  font-weight: 500;
   color: white;
 }
 
@@ -175,7 +177,7 @@ header {
   background-position: center;
   background-size: contain;
   margin-top: 40px;
-  background-attachment: ;
+  
 }
 .fheader {
   text-align: center;
