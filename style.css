@@ -113,6 +113,7 @@ button {
 .mainnav {
   margin-top: 20px;
   justify-content: space-between;
+  position: relative;
 }
 .clogo img {
   width: 180px;
@@ -343,13 +344,16 @@ color:#b9cde4 ;
   padding: 20px;
 flex-direction: row;
 flex-wrap: wrap;
+padding-left: 50px;
 }
 .pimg{
   width: 50%;
-  justify-content: center;  
+  justify-content: center; 
+  margin: 0 auto; 
   
 }
 .pimg img{
+  margin-left: 50px;
   width: 100%;
 }
 .pbtns{

@@ -1,14 +1,32 @@
 /* Media Queries */
 @media screen and (max-width: 995px) {
-    
   .navtoggle {
     display: block;
     color: #2294ed;
     font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .mainnav {
+    overflow: initial;
   }
   .navlinks {
-    display: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    padding: 20px 0;
+    height: 100vh;
+    transition: 0.9s cubic-bezier(0.23, 1, 0.320, 1);
   }
+  .active{
+    left: 0%;
+  }
+  .navlinks ul {
+    flex-direction: column;
+  }
+
   .egarea {
     gap: 20px;
     margin-block: 35px;
@@ -16,24 +34,30 @@
   }
   .egcard {
     width: 48%;
+    min-height: 240px;
+  }
+  .cardtext {
+    font-size: 18px;
   }
   .cta {
     padding-block: 80px;
   }
   .price {
+    padding: 20px;
     padding-block: 40px;
   }
   .ptext {
     flex-basis: 40%;
   }
   .pimg {
-    flex-basis: 60%;
+    flex-basis: 50%;
   }
   .pimg img {
-    min-width: 400px;
+    margin: 0 auto;
+    max-width: 100%;
   }
   .fimg {
-    width: 60%;
+    width: 50%;
   }
   .bgb {
     width: 40%;
@@ -43,100 +67,100 @@
     width: 90%;
   }
 }
-@media  screen and (max-width:789px) {
-    
-    .headerleft h1{
-        font-weight: 800;
-    }
-    .headersec{
-        flex-direction: column-reverse;       
+@media screen and (max-width: 789px) {
+  .headerleft h1 {
+    font-weight: 800;
+  }
+  .headersec {
+    flex-direction: column-reverse;
+  }
+  .headerleft {
+    max-width: 100vw;
+    text-align: center;
+  }
 
-    }
-    .headerleft{
-        max-width: 100vw;
-        text-align: center;        
-    }
-    
-    .fcard{
-        gap:10px;
-        min-width: 45%;
-    }
-    .bfc{
-        flex-direction: column;
-    }
-    .bfc2{
-        flex-direction: column-reverse;
-    }
-   .footer{
+  .fcard {
+    gap: 10px;
+    min-width: 45%;
+  }
+  .bfc {
+    flex-direction: column;
+  }
+  .bfc2 {
+    flex-direction: column-reverse;
+  }
+  .footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   }
-   .linkcol h4{
+  }
+  .linkcol h4 {
     margin: 5px 0;
-   }
-   .footer
-   .linkcol{
+  }
+  .footer .linkcol {
     margin: 20px 0;
     text-align: center;
-    align-items: center;   
-   }
-   .price{
+    align-items: center;
+  }
+  .price {
     flex-direction: column-reverse;
-   }
-   .pimg {
+  }
+  .pimg {
     width: 100%;
-   }
-   .ptext{
+  }
+  .ptext {
     width: 100%;
     text-align: center;
     gap: 15px;
-   }
-   .ptop p{
+  }
+  .ptop p {
     margin: 20px 0;
-   }
-   .pbottom{
+  }
+  .pbottom {
     text-align: center;
-   }
-  .pbottom .li{
+  }
+  .pbottom .li {
     flex-direction: column;
-   align-items: center;
-   justify-content: center;
- gap: 0px;
-   }
-   .subf{
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  .subf {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 10px;
-   }
-   .pbtns{
+  }
+  .pbtns {
     flex-direction: column;
     gap: 5px;
-   }
-   .cta{
+  }
+  .cta {
     padding-block: 40px;
-   }
-   .ctasec{
+  }
+  .ctasec {
     gap: 10px;
-   }
-   .ctasec p{
+  }
+  .ctasec p {
     margin: 10px;
-   }
+  }
 }
-@media  screen and (max-width:500px) {
-    h1{
-        font-size: 2.2rem;
-    }
-    h2{
-        
-    }
-    h3{
-        
-    }
-    .egcard{
-        width: 100%;
-    }
-    .fcard{
-        min-width: 100%;
-    }
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+  }
+  h3 {
+  }
+  .egcard {
+    width: 100%;
+    min-height: 200px;
+  }
+  .fcard {
+    min-width: 100%;
+  }
+
+  .cardtext {
+    font-size: 15px;
+  }
 }
