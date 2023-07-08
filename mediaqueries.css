@@ -6,7 +6,7 @@
       }
   .navtoggle {
     display: block;
-    color: #2294ed;
+    color: #183b56 ;
     font-size: 1.2rem;
     
   }
@@ -76,7 +76,7 @@
 @media screen and (max-width: 789px) {
   .headerleft h1 {
     font-weight: 600;
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
   .headersec {
     flex-direction: column-reverse;
