@@ -17,7 +17,7 @@
     left: -100%;
     width: 100%;
     padding: 20px 0;
-    height: 100vh;
+    height: 80vh;
     transition: 0.9s cubic-bezier(0.23, 1, 0.320, 1);
   }
   .active{
