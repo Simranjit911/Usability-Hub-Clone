@@ -1,0 +1,142 @@
+/* Media Queries */
+@media screen and (max-width: 995px) {
+    
+  .navtoggle {
+    display: block;
+    color: #2294ed;
+    font-size: 1.2rem;
+  }
+  .navlinks {
+    display: none;
+  }
+  .egarea {
+    gap: 20px;
+    margin-block: 35px;
+    justify-content: center;
+  }
+  .egcard {
+    width: 48%;
+  }
+  .cta {
+    padding-block: 80px;
+  }
+  .price {
+    padding-block: 40px;
+  }
+  .ptext {
+    flex-basis: 40%;
+  }
+  .pimg {
+    flex-basis: 60%;
+  }
+  .pimg img {
+    min-width: 400px;
+  }
+  .fimg {
+    width: 60%;
+  }
+  .bgb {
+    width: 40%;
+  }
+  .ftext,
+  .review {
+    width: 90%;
+  }
+}
+@media  screen and (max-width:789px) {
+    
+    .headerleft h1{
+        font-weight: 800;
+    }
+    .headersec{
+        flex-direction: column-reverse;       
+
+    }
+    .headerleft{
+        max-width: 100vw;
+        text-align: center;        
+    }
+    
+    .fcard{
+        gap:10px;
+        min-width: 45%;
+    }
+    .bfc{
+        flex-direction: column;
+    }
+    .bfc2{
+        flex-direction: column-reverse;
+    }
+   .footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .linkcol h4{
+    margin: 5px 0;
+   }
+   .footer
+   .linkcol{
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;   
+   }
+   .price{
+    flex-direction: column-reverse;
+   }
+   .pimg {
+    width: 100%;
+   }
+   .ptext{
+    width: 100%;
+    text-align: center;
+    gap: 15px;
+   }
+   .ptop p{
+    margin: 20px 0;
+   }
+   .pbottom{
+    text-align: center;
+   }
+  .pbottom .li{
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ gap: 0px;
+   }
+   .subf{
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+   }
+   .pbtns{
+    flex-direction: column;
+    gap: 5px;
+   }
+   .cta{
+    padding-block: 40px;
+   }
+   .ctasec{
+    gap: 10px;
+   }
+   .ctasec p{
+    margin: 10px;
+   }
+}
+@media  screen and (max-width:500px) {
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        
+    }
+    h3{
+        
+    }
+    .egcard{
+        width: 100%;
+    }
+    .fcard{
+        min-width: 100%;
+    }
+}
