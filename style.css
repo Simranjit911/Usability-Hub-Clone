@@ -191,6 +191,11 @@ header {
 }
 
 /* big featuresection */
+.bfb{
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
 .big-features-section {
   padding: 30px 20px 0;
   margin-top: 50px;
@@ -199,7 +204,7 @@ header {
   gap: 30px;
 }
 .fimg {
-  width: 50%;
+  width: 60%;
 }
 .fimg img {
   width: 100%;
@@ -207,8 +212,39 @@ header {
 .ftext {
   flex-direction: column;
   align-items: flex-start;
-  gap: 35px;
-  width: 50%;
+  justify-content: center;
+  gap: 15px;
+  width: 60%;
+
+}
+.ftext h3{
+  font-size: 28px;
+}
+.review{
+  width: 60%;  
+}
+.review p{
+  font-weight: 600;
+  color: #183b56;
+  font-size: 1rem;
+}
+.review img{
+  height: 35px;
+  margin: 20px 0;
+}
+.profile img{
+  margin-right: 10px;
+  height: 50px;
+}
+.rev
+.profile{
+  gap: 25px;
+  align-items: center;
+}
+.prtext p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #577592;
 }
 /* Examples */
 .egheader {
