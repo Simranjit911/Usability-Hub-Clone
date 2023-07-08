@@ -1,5 +1,9 @@
 /* Media Queries */
 @media screen and (max-width: 995px) {
+    .clogo img {
+        width: 160px;
+        margin-top: 10px;
+      }
   .navtoggle {
     display: block;
     color: #2294ed;

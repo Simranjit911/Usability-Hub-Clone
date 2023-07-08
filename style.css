@@ -114,9 +114,11 @@ button {
   margin-top: 20px;
   justify-content: space-between;
   position: relative;
+  align-items: center;
 }
 .clogo img {
   width: 180px;
+  margin-top: 10px;
 }
 .navlinks {
   flex-basis: 730px;
